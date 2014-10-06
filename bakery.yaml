@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Khand-Semibold.ttf.ttx, Khand-Regular.ttf.ttx, Khand-Medium.ttf.ttx,
+  Khand-Light.ttf.ttx, Khand-Bold.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
